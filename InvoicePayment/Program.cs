@@ -1,4 +1,8 @@
-﻿using System;
+﻿using InvoicePayment.View.AdminArea.AppUserView;
+using InvoicePayment.View.AdminArea.MainPage;
+using InvoicePayment.View.MemberArea;
+using InvoicePayment.View.Shared;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +20,7 @@ namespace InvoicePayment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new PaymentPage());
         }
     }
 }
